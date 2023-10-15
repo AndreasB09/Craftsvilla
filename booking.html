@@ -1,8 +1,59 @@
-<!-- Mosaic Art - 400kr
-Kit has frame, A4 size wood pallet to stick small regular or irregular pieces of colored stone, gum.  -->
-
-<!-- Watercolor painting - 200kr
-Kit: Frame, watercolor painting paper with outline design, watercolors, brushes -->
-
-<!-- Canvas painting - 300kt
-Kit: Frame, acrylic painting paper with outline design, acrylic colors, brushes -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Happy+Monkey&family=Inknut+Antiqua:wght@400;800&family=Open+Sans:wght@300;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1 id="title">Craftsvilla</h1>
+    </div>
+    <div class="navbar">
+        <div class="button">
+            <h1><a href="index.html">Home</a></h1>
+        </div>
+        <div class="button">
+            <h1><a href="booking.html">Booking</a></h1>
+        </div>
+        <div class="button">
+            <h1><a href="feedback.html">Feedback</a></h1>
+        </div>
+        <div class="button">
+            <h1><a href="gallery.html">Gallery</a></h1>
+        </div>
+    </div>
+    <h2>Tailor your interest and time to suit you</h2>
+    <div class="pricing">
+        <div class="info">
+            <h4>Mosaic Art - 400kr</h4>
+            <p>Kit includes: Frame, A4 size wood pallet to stick small regular or irregular pieces of colored stone, gum.</p>
+        </div>
+        <div class="info">
+            <h4>Watercolor Painting - 200kr</h4>
+            <p>Kit includes: Frame, watercolor painting paper with outline design, watercolors, brushes.</p>
+        </div>
+        <div class="info">
+            <h4>Canvas Painting - 300kr</h4>
+            <p>Kit includes: Frame, acrylic painting paper with outline design, acrylic colors, brushes</p>
+        </div>
+    </div>
+    <div id="booking">
+        <label for="select">Select activity</label>
+        <select name="select" id="select">
+            <option value="mosaic">Mosaic Art</option>
+            <option value="mosaic">Watercolor Painting</option>
+            <option value="mosaic">Canvas Painting</option>
+        </select>
+        <label for="month">Select a month</label>
+        <input type="month">
+        <label for="time">Select a time</label>
+        <input type="time">
+        <button>Submit</button>
+    </div>
+</body>
+</html>

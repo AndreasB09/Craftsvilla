@@ -13,6 +13,7 @@ body {
     justify-content: space-around;
     align-items: center;
     transition: width 1s, height, 1s;
+    border: solid 2px black;
 }
 
 .button:hover {
@@ -88,20 +89,80 @@ a {
     justify-content: center;
 }
 
-/* #gallery-row-one {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+textarea {
+    border-radius: 5px;
+    border: solid 3px black;
 }
 
-#gallery-row-two {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+button {
+    width: 250px;
+    height: 60px;
+    background-color: #023047;
+    border-radius: 5%;
+    color: white;
+    font-family: Inknut Antiqua;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
-#gallery-row-three {
+.submit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.pricing {
+    display: flex;
+    justify-content:space-around;
+}
+
+.info {
+    width: 300px;
+    height: 320px;
+    background-color: #219ebc;
+    border-radius: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
-} */
+    border: solid 2px black;
+    margin-top: 40px;
+}
+
+#booking {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 80px;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 3px black;
+}
+
+select {
+    width: 307px;
+    height: 40px;
+    font-family: Inknut Antiqua;
+    border-radius: 5px;
+    border: solid 3px black;
+}
+
+#review {
+    width: 500px;
+    height: 340px;
+    background-color: #219ebc;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    transition: width 2s, height 2s;
+}
+
+.feedback-main {
+    display: flex;
+}
