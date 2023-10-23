@@ -103,6 +103,7 @@ a {
 textarea {
     border-radius: 5px;
     border: solid 3px black;
+    resize: none;
 }
 
 button {
