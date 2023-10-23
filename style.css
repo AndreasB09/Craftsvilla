@@ -66,9 +66,11 @@ img {
 img:hover {
     width: 450px;
     height: 450px;
+    
 }
 
 .upper {
+    /* position: absolute; */
     display: flex;
     justify-content: center;
 }
